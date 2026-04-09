@@ -1,0 +1,92 @@
+[
+  {
+    "name": "URL",
+    "value": "http://localhost:1337",
+    "slotSetting": false
+  },
+  {
+    "name": "HOST",
+    "value": "0.0.0.0",
+    "slotSetting": false
+  },
+  {
+    "name": "PORT",
+    "value": "1337",
+    "slotSetting": false
+  },
+  {
+    "name": "APP_KEYS",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": false
+  },
+  {
+    "name": "API_TOKEN_SALT",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": false
+  },
+  {
+    "name": "ADMIN_JWT_SECRET",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": false
+  },
+  {
+    "name": "TRANSFER_TOKEN_SALT",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": false
+  },
+  {
+    "name": "ENCRYPTION_KEY",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SQL_DATABASE",
+    "value": "zuccini-strapi-cms-database",
+    "slotSetting": true
+  },
+  {
+    "name": "AZURE_SQL_PASSWORD",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": true
+  },
+  {
+    "name": "AZURE_SQL_PORT",
+    "value": "1433",
+    "slotSetting": true
+  },
+  {
+    "name": "AZURE_SQL_SERVER",
+    "value": "zuccini-strapi-cms-server.database.windows.net",
+    "slotSetting": true
+  },
+  {
+    "name": "AZURE_SQL_USERNAME",
+    "value": "zuccini-strapi-cms-server-admin",
+    "slotSetting": true
+  },
+  {
+    "name": "JWT_SECRET",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_ACCOUNT_NAME",
+    "value": "zucchinibag",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_ACCOUNT_KEY",
+    "value": "<set-in-azure-app-settings>",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_CONTAINER_NAME",
+    "value": "zucchiniimages",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SERVICE_BASE_URL",
+    "value": "https://zucchinibag.blob.core.windows.net",
+    "slotSetting": false
+  }
+]
