@@ -5,7 +5,7 @@
     "singularName": "article",
     "pluralName": "articles",
     "displayName": "Article",
-    "description": "Create your blog content"
+    "description": "Create news content"
   },
   "options": {
     "draftAndPublish": true
@@ -15,9 +15,17 @@
     "title": {
       "type": "string"
     },
-    "description": {
+    "contentSummary": {
       "type": "text",
       "maxLength": 1000
+    },
+    "bodyPreview": {
+      "type": "text",
+      "maxLength": 1000
+    },
+    "bodyGated": {
+      "type": "text",
+      "maxLength": 3000
     },
     "slug": {
       "type": "uid",
@@ -35,6 +43,14 @@
       "target": "api::author.author",
       "inversedBy": "articles"
     },
+    "editorsChoice": {
+      "type": "boolean",
+      "default": false
+    },
+     "readerLikes": {
+      "type": "integer",
+      "default": 0
+    },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
@@ -47,3 +63,5 @@
     }
   }
 }
+ 
+ 
