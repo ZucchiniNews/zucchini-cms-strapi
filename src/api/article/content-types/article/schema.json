@@ -21,11 +21,11 @@
     },
     "bodyPreview": {
       "type": "text",
-      "maxLength": 1000
+      "maxLength": 3000
     },
     "bodyGated": {
       "type": "text",
-      "maxLength": 3000
+      "maxLength": 5000
     },
     "slug": {
       "type": "uid",
