@@ -477,11 +477,11 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     >;
     bodyGated: Schema.Attribute.Text &
       Schema.Attribute.SetMinMaxLength<{
-        maxLength: 3000;
+        maxLength: 5000;
       }>;
     bodyPreview: Schema.Attribute.Text &
       Schema.Attribute.SetMinMaxLength<{
-        maxLength: 1000;
+        maxLength: 3000;
       }>;
     category: Schema.Attribute.Relation<'manyToOne', 'api::category.category'>;
     contentSummary: Schema.Attribute.Text &
